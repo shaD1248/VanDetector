@@ -16,6 +16,7 @@ jobs:
         id: buildozer
         with:
           workdir: .
+          spec: ./buildozer.spec
           buildozer_version: stable
 
       - name: Upload artifacts
