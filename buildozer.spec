@@ -9,3 +9,6 @@ requirements = kivy
 orientation = portrait
 
 android.permissions = INTERNET
+
+[buildozer]
+log_level = 2
